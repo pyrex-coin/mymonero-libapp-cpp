@@ -34,7 +34,7 @@
 #include "WalletsListController_Base.hpp"
 #include <boost/foreach.hpp>
 #include "misc_log_ex.h"
-#include "../mymonero-core-cpp/src/monero_wallet_utils.hpp"
+#include "../Pyrex-core-cpp/src/monero_wallet_utils.hpp"
 using namespace Wallets;
 using namespace monero_wallet_utils;
 //

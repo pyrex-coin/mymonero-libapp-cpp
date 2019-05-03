@@ -58,7 +58,7 @@ namespace Wallets
 	{
 		switch(currency) {
 			case Monero:
-				return "xmr";
+				return "pyx";
 			default:
 				BOOST_THROW_EXCEPTION(logic_error("Unhandled Wallets::Currency"));
 				return symbol_string_from(Monero); // default … not rea
@@ -72,7 +72,7 @@ namespace Wallets
 	{
 		switch(currency) {
 			case Monero:
-				return "XMR";
+				return "PYX";
 			default:
 				BOOST_THROW_EXCEPTION(logic_error("Unhandled Wallets::Currency"));
 				return humanReadableCurrencySymbolString(Monero); // default … not rea
